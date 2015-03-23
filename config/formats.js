@@ -2,6 +2,36 @@
 // The rules that formats use are stored in data/rulesets.js
 
 exports.Formats = [
+    
+     //////////EIGENE
+    
+    {
+		name: "RANDOM FUNNY SHIT",
+		section: "DALLE RULES",
+
+        mod: 'randomfunnyshit',
+		team: 'random',
+		ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod']
+	},
+    
+        
+    {
+		name: "[Gen 4] Random Battle",
+		section: "DALLE RULES",
+
+        mod: 'gen4random',
+		team: 'random',
+		ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod']
+	},
+    
+        {
+		name: "[Gen 6] Metronome Battle",
+		section: "DALLE RULES",
+
+        mod: 'metronomebattle',
+		team: 'random',
+		ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod']
+	},
 
 	// XY Singles
 	///////////////////////////////////////////////////////////////////
