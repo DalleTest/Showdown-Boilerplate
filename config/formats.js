@@ -14,7 +14,14 @@ exports.Formats = [
 		ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod']
 	},
     
-        
+    {
+		name: "[Gen 1] Random Battle",
+		section: "DALLE RULES",
+
+		mod: 'gen1',
+		team: 'random',
+		ruleset: ['Pokemon', 'Sleep Clause Mod', 'Freeze Clause Mod', 'HP Percentage Mod', 'Cancel Mod']
+    },
     {
 		name: "[Gen 4] Random Battle",
 		section: "DALLE RULES",
@@ -1114,7 +1121,7 @@ exports.Formats = [
 		]
 	},
 	{
-		name: "[Gen 1] Random Battle",
+		name: "[Gen 1] Random",
 		section: "Past Generations",
 
 		mod: 'gen1',
